@@ -1,0 +1,105 @@
+.content {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.principal__title {
+  line-height: 1;
+  font-weight: bold;
+  font-size: 6vw;
+  font-style: normal;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 32px;
+  /* padding-top: 30%; */
+  margin: 0;
+}
+
+.principal__subtitle {
+  font-size: 3vw;
+  line-height: 1;
+  font-style: normal;
+  font-weight: normal;
+  padding-bottom: 64px;
+}
+
+.principal__paisaje {
+  max-width: 100%;
+
+  /* max-width: 984px; */
+  height: auto;
+  padding-bottom: 72px;
+}
+
+.principal__text {
+  margin: 0;
+  padding: 0 5%;
+}
+
+.principal__text-title {
+  font-size: 4vw;
+  line-height: 1;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-size: 2vw;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+}
+
+.name {
+  font-size: 2vw;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  display: flex;
+  justify-content: end;
+}
+
+.description {
+  font-size: 1vw;
+  font-weight: normal;
+  line-height: 1;
+  padding-bottom: 92px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .principal__text {
+    font-size: 4vw;
+    padding: 0 15%;
+  }
+  .principal__paisaje {
+    width: 70%;
+  }
+  .name {
+    font-size: 1vw;
+  }
+  .description {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .principal__text {
+    padding: 0 2%;
+  }
+  .paragraph {
+    font-size: 4vw;
+  }
+  .name {
+    font-size: 3vw;
+  }
+}
