@@ -1,4 +1,4 @@
-.content {
+.principal__content {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
@@ -52,14 +52,14 @@
   font-weight: bold;
 }
 
-.paragraph {
+.principal__paragraph {
   font-size: 2vw;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
 }
 
-.name {
+.principal__name {
   font-size: 2vw;
   font-weight: normal;
   font-style: normal;
@@ -68,7 +68,7 @@
   justify-content: end;
 }
 
-.description {
+.principal__description {
   font-size: 1vw;
   font-weight: normal;
   line-height: 1;
@@ -84,10 +84,10 @@
   .principal__paisaje {
     width: 70%;
   }
-  .name {
+  .principal__name {
     font-size: 1vw;
   }
-  .description {
+  .principal__description {
     font-size: 2vw;
   }
 }
@@ -96,10 +96,10 @@
   .principal__text {
     padding: 0 2%;
   }
-  .paragraph {
+  .principal__paragraph {
     font-size: 4vw;
   }
-  .name {
+  .principal__name {
     font-size: 3vw;
   }
 }
