@@ -18,6 +18,9 @@
   margin: 0;
 }
 
+.span {
+  display: block;
+}
 .principal__subtitle {
   font-size: 3vw;
   line-height: 1;
