@@ -17,8 +17,7 @@
 .header__paragraph {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 0.9rem;
-  width: 100%;
+  font-size: 2vw;
 }
 
 @media screen and (max-width: 1024px) {
@@ -28,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
   .header {
     padding: 15px;
     margin: auto;
@@ -38,6 +37,6 @@
   }
   .header__paragraph {
     width: 60%;
-    font-size: 0.9rem;
+    font-size: 4vw;
   }
 }
