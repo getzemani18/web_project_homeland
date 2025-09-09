@@ -26,7 +26,7 @@
   line-height: 1;
   font-style: normal;
   font-weight: normal;
-  padding-bottom: 64px;
+  padding-bottom: 10%;
 }
 
 .principal__paisaje {
@@ -73,13 +73,13 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (max-width: 768px) {
   .principal__text {
     font-size: 4vw;
     padding: 0 15%;
   }
   .principal__paisaje {
-    width: 70%;
+    width: 100%;
   }
   .principal__name {
     font-size: 1vw;
@@ -87,16 +87,53 @@
   .principal__description {
     font-size: 2vw;
   }
-}
-
-@media screen and (max-width: 320px) {
   .principal__text {
-    padding: 0 2%;
+    padding: 0;
+    font-size: 2vw;
   }
   .principal__paragraph {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .principal__name {
     font-size: 3vw;
+  }
+  .principal__description {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .principal {
+    padding: 0 10px;
+  }
+  .principal__title {
+    padding: 0;
+    font-size: 40px;
+    margin-bottom: 16px;
+  }
+  .principal__subtitle {
+    font-size: 16px;
+    padding-bottom: 16px;
+  }
+  .principal__paisaje {
+    width: 100%;
+    padding-bottom: 24px;
+  }
+  .principal__text {
+    padding: 0;
+  }
+  .principal__text-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+  .principal__paragraph {
+    font-size: 24px;
+  }
+  .principal__name {
+    font-size: 24px;
+    margin-top: 12px;
+  }
+  .principal__description {
+    font-size: 16px;
   }
 }
