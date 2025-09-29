@@ -1,0 +1,191 @@
+.places-content {
+  width: 100%;
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.places {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 92px;
+  grid-template-rows: auto auto 1fr;
+  grid-gap: 48px 40px;
+  align-items: start;
+}
+.places_info {
+  padding: 0;
+}
+
+.places_title {
+  line-height: 1;
+  font-weight: bold;
+  font-size: 4vw;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.places_title-span {
+  display: block;
+}
+
+.places_artistas-text {
+  padding: 0;
+}
+
+.places_text {
+  list-style: normal;
+  line-height: 1;
+  font-size: 1.5vw;
+}
+.places_artistas-title {
+  line-height: 1;
+  font-weight: normal;
+  font-size: 0.7vw;
+  color: #aaa;
+}
+
+.places_artistas-span {
+  /* display: block; */
+}
+
+.places img {
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  margin: 0;
+  box-shadow: 10px 10px 10px #000;
+}
+.places img:hover {
+  opacity: 0.5;
+}
+
+.places_button {
+  border: none;
+  color: #fff;
+  background: linear-gradient(90deg, #0278fe, #003a7b);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 250px;
+  height: 50px;
+}
+.places_button:hover:enabled {
+  background: linear-gradient(90deg, #1a3d6e, #0f2747);
+}
+
+.places_imagen-zocalo {
+  height: auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) and (max-width: 780px) {
+  .places {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "titulo astista"
+      "imagen texto"
+      "boton texto";
+    grid-template-rows: auto auto 1fr;
+    grid-gap: 48px 40px;
+    align-items: start;
+  }
+  .places_info {
+    margin: 0;
+    padding-left: 28px;
+    padding: 0;
+    display: grid;
+    grid-area: texto;
+  }
+  .places_title {
+    grid-area: titulo;
+    font-size: 4vw;
+  }
+  .places_title-span {
+    display: inline;
+  }
+  .places_artistas_place {
+    grid-area: artista;
+  }
+  .places img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    grid-area: imagen;
+  }
+  .places_artistas-text {
+    padding: 0;
+    padding: 0 5%;
+    font-size: 2vw;
+  }
+  .places_artistas-title {
+    font-size: 1.5vw;
+  }
+  .places_text {
+    font-size: 2vw;
+    margin: 0;
+    column-gap: 0;
+    text-align: left;
+    line-height: 1.5;
+    padding: 0;
+  }
+  .places_button {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 24px;
+    grid-area: boton;
+  }
+  .places_imagen-zocalo {
+    width: 100%;
+    height: auto;
+    grid-area: imagen;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .places {
+    grid-template-columns: 1fr;
+    align-items: center;
+    grid-template-areas:
+      "titulo"
+      "artista"
+      "imagen"
+      "texto"
+      "boton";
+  }
+  .places_title {
+    grid-area: titulo;
+    font-size: 6vw;
+    margin: auto;
+  }
+  .places_artistas-title {
+    font-size: 2.5vw;
+  }
+
+  .places_text {
+    grid-area: texto;
+    font-size: 4vw;
+    line-height: 1.5;
+  }
+  .places_button {
+    margin: 0 auto 0;
+    grid-area: boton;
+    max-width: 100%;
+    height: 30px;
+    font-size: 0.9rem;
+  }
+  .places img {
+    grid-area: imagen;
+    border-radius: 4px;
+  }
+  .places_artistas_place {
+    grid-area: artista;
+  }
+}

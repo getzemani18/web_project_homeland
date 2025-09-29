@@ -1,0 +1,25 @@
+.gallery_images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0;
+}
+
+.gallery_images img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1024px) and (max-width: 768px) {
+  .gallery_images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .gallery_images {
+    grid-template-columns: 1fr;
+  }
+}
