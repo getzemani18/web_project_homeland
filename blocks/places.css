@@ -101,7 +101,6 @@ a {
     margin: 0;
     padding-left: 28px;
     padding: 0;
-    display: grid;
     grid-area: texto;
   }
   .places_title {
@@ -151,6 +150,7 @@ a {
 
 @media screen and (max-width: 480px) {
   .places {
+    margin-left: 5%;
     grid-template-columns: 1fr;
     align-items: center;
     grid-template-areas:
@@ -168,9 +168,12 @@ a {
   .places_artistas-title {
     font-size: 2.5vw;
   }
+  .places_info {
+    display: grid;
+    gap: 25px;
+  }
 
   .places_text {
-    grid-area: texto;
     font-size: 4vw;
     line-height: 1.5;
   }
