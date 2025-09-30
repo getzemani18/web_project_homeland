@@ -19,14 +19,14 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (max-width: 780px) {
   .header {
     padding: 20px;
     margin: auto;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .header {
     margin: auto;
     padding: 0;
