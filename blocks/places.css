@@ -16,7 +16,7 @@
   padding: 0;
 }
 
-.places_title {
+.places-title {
   line-height: 1;
   font-weight: bold;
   font-size: 4vw;
@@ -103,7 +103,7 @@ a {
     padding: 0;
     grid-area: texto;
   }
-  .places_title {
+  .places-title {
     grid-area: titulo;
     font-size: 4vw;
   }
@@ -160,7 +160,7 @@ a {
       "texto"
       "boton";
   }
-  .places_title {
+  .places-title {
     grid-area: titulo;
     font-size: 6vw;
     margin: auto;
