@@ -12,7 +12,7 @@
   grid-gap: 48px 40px;
   align-items: start;
 }
-.places_info {
+.places-info {
   padding: 0;
 }
 
@@ -25,27 +25,27 @@
   padding: 0;
 }
 
-.places_title-span {
+.places-title-span {
   display: block;
 }
 
-.places_artistas-text {
+.places-artistas-text {
   padding: 0;
 }
 
-.places_text {
+.places-text {
   list-style: normal;
   line-height: 1;
   font-size: 1.5vw;
 }
-.places_artistas-title {
+.places-artistas-title {
   line-height: 1;
   font-weight: normal;
   font-size: 0.7vw;
   color: #aaa;
 }
 
-.places_artistas-span {
+.places-artistas-span {
   /* display: block; */
 }
 
@@ -61,7 +61,7 @@
   opacity: 0.5;
 }
 
-.places_button {
+.places-button {
   border: none;
   color: #fff;
   background: linear-gradient(90deg, #0278fe, #003a7b);
@@ -73,11 +73,11 @@
   max-width: 250px;
   height: 50px;
 }
-.places_button:hover:enabled {
+.places-button:hover:enabled {
   background: linear-gradient(90deg, #1a3d6e, #0f2747);
 }
 
-.places_imagen-zocalo {
+.places-imagen-zocalo {
   height: auto;
   width: 100%;
 }
@@ -97,7 +97,7 @@ a {
     grid-gap: 48px 40px;
     align-items: start;
   }
-  .places_info {
+  .places-info {
     margin: 0;
     padding-left: 28px;
     padding: 0;
@@ -107,10 +107,10 @@ a {
     grid-area: titulo;
     font-size: 4vw;
   }
-  .places_title-span {
+  .places-title-span {
     display: inline;
   }
-  .places_artistas_place {
+  .places-artistas_place {
     grid-area: artista;
   }
   .places img {
@@ -119,15 +119,15 @@ a {
     margin: 0;
     grid-area: imagen;
   }
-  .places_artistas-text {
+  .places-artistas-text {
     padding: 0;
     padding: 0 5%;
     font-size: 2vw;
   }
-  .places_artistas-title {
+  .places-artistas-title {
     font-size: 1.5vw;
   }
-  .places_text {
+  .places-text {
     font-size: 2vw;
     margin: 0;
     column-gap: 0;
@@ -135,13 +135,13 @@ a {
     line-height: 1.5;
     padding: 0;
   }
-  .places_button {
+  .places-button {
     width: 100%;
     max-width: 100%;
     margin-top: 24px;
     grid-area: boton;
   }
-  .places_imagen-zocalo {
+  .places-imagen-zocalo {
     width: 100%;
     height: auto;
     grid-area: imagen;
@@ -165,19 +165,19 @@ a {
     font-size: 6vw;
     margin: auto;
   }
-  .places_artistas-title {
+  .places-artistas-title {
     font-size: 2.5vw;
   }
-  .places_info {
+  .places-info {
     display: grid;
     gap: 25px;
   }
 
-  .places_text {
+  .places-text {
     font-size: 4vw;
     line-height: 1.5;
   }
-  .places_button {
+  .places-button {
     margin: 0 auto 0;
     grid-area: boton;
     max-width: 100%;
@@ -188,7 +188,7 @@ a {
     grid-area: imagen;
     border-radius: 4px;
   }
-  .places_artistas_place {
+  .places-artistas_place {
     grid-area: artista;
   }
 }
