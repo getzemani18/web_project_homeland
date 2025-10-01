@@ -55,7 +55,7 @@
   border-radius: 8px;
   object-fit: cover;
   margin: 0;
-  box-shadow: 10px 10px 10px #000;
+  box-shadow: 10px 10px 25px 0 rgba(0, 0, 0, 0.5);
 }
 .places img:hover {
   opacity: 0.5;
@@ -64,7 +64,8 @@
 .places-button {
   border: none;
   color: #fff;
-  background: linear-gradient(90deg, #0278fe, #003a7b);
+  background: linear-gradient(#0278fe, #003a7b);
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 025);
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
@@ -110,7 +111,7 @@ a {
   .places-title-span {
     display: inline;
   }
-  .places-artistas_place {
+  .places-artistas-place {
     grid-area: artista;
   }
   .places img {
@@ -188,7 +189,7 @@ a {
     grid-area: imagen;
     border-radius: 4px;
   }
-  .places-artistas_place {
+  .places-artistas-place {
     grid-area: artista;
   }
 }
